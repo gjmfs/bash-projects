@@ -19,6 +19,7 @@ do
     2)
         wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         sudo dpkg -i google-chrome-stable_current_amd64.deb
+        sudo apt-get install -f
         echo -e "\n\nInstallation Successfully..."
     ;;
     3)
@@ -40,6 +41,7 @@ do
     5)
         wget https://zoom.us/client/5.16.10.668/zoom_amd64.deb
         sudo dpkg -i zoom_amd64.deb
+        sudo apt-get install -f
         echo -e "\n\nInstallation Successfully..."
     ;;
     0)
